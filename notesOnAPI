@@ -1,0 +1,23 @@
+event/{event_key}/matches
+
+match/{match_key}
+returns details of a given match, for example, ctsctqm1
+
+event/ {event_key}/insights
+returns overall details of matches
+
+event/{event_key}/district_points
+returns the district point breakdown
+
+event/{event_key}/awards
+returns the awards and the recipients at a given event
+
+event/{event_key}/alliances
+returns the alliances in the given event
+?add this into the alliance selection function?  However, the alliance selection is time sensitive, so when this API will be updated is a major concern
+
+team/{team_key}/event/{event_key}/matches
+returns a list of matches for the given team and event.
+This returns the match details of this team.  If iterate thru all the teams, this can be very useful.
+
+—what does the status API sort_order do?

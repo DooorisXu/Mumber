@@ -1,0 +1,9 @@
+#Masznay Macro
+Sub callPython()
+RetVal = Shell("C:\Users\Andrew\AppData\Local\Programs\Python\Python36-32\python.exe " & "C:\Users\Andrew\Documents\2018FRCscouting-master\module1.py test test2")
+End Sub
+
+#Tigger Macro
+Sub callMatchDetailScraper()
+RetVal = Shell("C:\Users\lingy\AppData\Local\Programs\Python\Python36-32\python.exe" & " " & "C:\Users\lingy\PycharmProjects\2018FRCscouting\matchDetails.py")
+End Sub
